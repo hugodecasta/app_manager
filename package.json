@@ -1,0 +1,29 @@
+{
+  "name": "app_manager",
+  "version": "0.1.0",
+  "description": "Apps url route manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugodecasta/app_manager.git"
+  },
+  "keywords": [
+    "App",
+    "URL",
+    "Route"
+  ],
+  "author": "Hugo Castaneda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugodecasta/app_manager/issues"
+  },
+  "homepage": "https://github.com/hugodecasta/app_manager#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "http-proxy-middleware": "^1.0.6"
+  }
+}
